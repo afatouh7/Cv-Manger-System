@@ -12,13 +12,13 @@ namespace Core.Entity
         [Required]
         public string FullName { get; set; }
         public string CityName { get; set; }
-        //[Required]
-        //[Display(Name = "Email")]
-        //[EmailAddress]
-        //[RegularExpression(@"^([A-Za-z0-9][^'!&\\#*$%^?<>()+=:;`~\[\]{}|/,₹€@ ][a-zA-z0- 9-._][^!&\\#*$%^?<>()+=:;`~\[\]{}|/,₹€@ ]*\@[a-zA-Z0-9][^!&@\\#*$%^?<> ()+=':;~`.\[\]{}|/,₹€ ]*\.[a-zA-Z]{2,6})$", ErrorMessage = "Please enter a  valid Email")]
-        //public string Email { get; set; }
-        //[Required]
-        //[RegularExpression(@"[0-9]{13}", ErrorMessage = "Invalid ID Number")]
+        [Required]
+        [Display(Name = "Email")]
+        [EmailAddress]
+        [RegularExpression(@"^([A-Za-z0-9][^'!&\\#*$%^?<>()+=:;`~\[\]{}|/,₹€@ ][a-zA-z0- 9-._][^!&\\#*$%^?<>()+=:;`~\[\]{}|/,₹€@ ]*\@[a-zA-Z0-9][^!&@\\#*$%^?<> ()+=':;~`.\[\]{}|/,₹€ ]*\.[a-zA-Z]{2,6})$", ErrorMessage = "Please enter a  valid Email")]
+        public string Email { get; set; }
+        [Required]
+        [RegularExpression(@"[0-9]{13}", ErrorMessage = "Invalid ID Number")]
         public string MobilNumber { get; set; }
     }
 }
