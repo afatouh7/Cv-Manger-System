@@ -1,0 +1,15 @@
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\bin\Debug\net5.0\Infrestructure.deps.json
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\bin\Debug\net5.0\Infrestructure.dll
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\bin\Debug\net5.0\Infrestructure.pdb
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\bin\Debug\net5.0\Core.dll
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\bin\Debug\net5.0\Core.pdb
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.csproj.AssemblyReference.cache
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.AssemblyInfoInputs.cache
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.AssemblyInfo.cs
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.csproj.CoreCompileInputs.cache
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.csproj.CopyComplete
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.dll
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\refint\Infrestructure.dll
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\Infrestructure.pdb
+C:\Users\DELL G3\source\repos\Cv-Manger-System\CvManagerSystem\Infrestructure\obj\Debug\net5.0\ref\Infrestructure.dll

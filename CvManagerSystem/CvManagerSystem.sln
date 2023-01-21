@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvManagerSystem", "CvManagerSystem\CvManagerSystem.csproj", "{F1CB61E6-FD04-468E-9359-EDDBB6485777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{53479761-3A03-4C77-BCAD-5249B164F4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrestructure", "Infrestructure\Infrestructure.csproj", "{164CFC82-CC85-4FD1-A3EF-2E1C1F263635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F1CB61E6-FD04-468E-9359-EDDBB6485777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1CB61E6-FD04-468E-9359-EDDBB6485777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1CB61E6-FD04-468E-9359-EDDBB6485777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53479761-3A03-4C77-BCAD-5249B164F4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53479761-3A03-4C77-BCAD-5249B164F4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53479761-3A03-4C77-BCAD-5249B164F4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53479761-3A03-4C77-BCAD-5249B164F4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164CFC82-CC85-4FD1-A3EF-2E1C1F263635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164CFC82-CC85-4FD1-A3EF-2E1C1F263635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164CFC82-CC85-4FD1-A3EF-2E1C1F263635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164CFC82-CC85-4FD1-A3EF-2E1C1F263635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
