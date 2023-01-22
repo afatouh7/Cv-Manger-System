@@ -36,6 +36,23 @@ namespace CvManagerSystem.Controllers
             }
             return _response;
         }
+        [HttpGet("{id}")]
+        public async Task<object> GetById(int id)
+        {
+            try
+            {
+               CvDto cvs = await _repository.GetCvById(id);
+                _response.Result = cvs;
+            }
+            catch (System.Exception ex)
+            {
+
+                _response.IsSuccess = false;
+                _response.ErrorMessasge = new List<string> { ex.ToString() };
+            }
+            return _response;
+        }
+
         [HttpPost]
         public async Task<object> Post([FromBody] CvDto cvDto)
         {

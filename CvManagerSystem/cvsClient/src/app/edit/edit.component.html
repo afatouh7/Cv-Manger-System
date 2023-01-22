@@ -1,0 +1,45 @@
+<mat-card>
+
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Name"
+          [(ngModel)]="cv.id" name="name">
+  </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Name"
+              [(ngModel)]="cv.name" name="name">
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="full Name"
+              [(ngModel)]="cv.personalInformation.fullName" name="fullName">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="city Name"
+            [(ngModel)]="cv.personalInformation.cityName" name="cityName">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="email"
+          [(ngModel)]=" cv.personalInformation.email" name="email">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="mobil Number"
+        [(ngModel)]="cv.personalInformation.mobilNumber " name="mobilNumber">
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="city "
+      [(ngModel)]=" cv.experienceInformation.city " name="city">
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="company Field"
+      [(ngModel)]="cv.experienceInformation.companyField" name="companyField">
+</mat-form-field>
+
+  </form>
+  <button mat-raised-button (click)="EditCv()" color="primary">
+      CreateCv
+  </button>
+
+  <button mat-raised-button (click)="cancel()">
+      Cancel
+  </button>
+</mat-card>

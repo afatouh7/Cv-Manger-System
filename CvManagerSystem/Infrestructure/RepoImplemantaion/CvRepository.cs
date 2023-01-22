@@ -64,5 +64,10 @@ namespace Infrestructure.RepoImplemantaion
             List<CV> cv = await _context.CVs.Include(x=>x.PersonalInformation).Include(x=>x.ExperienceInformation).ToListAsync();
             return _mapper.Map<List<CvDto>>(cv);
         }
+        public async Task<CvDto> GetCvById(int id)
+        {
+            CV cv = await _context.CVs.Where(x=>x.Id==id).Include(x => x.PersonalInformation).Include(x => x.ExperienceInformation).SingleOrDefaultAsync();
+            return _mapper.Map<CvDto>(cv);
+        }
     }
 }

@@ -14,5 +14,6 @@ namespace Core.Interfaces
         Task<IEnumerable<CvDto>> GetCvs();
         Task<CvDto> CreateUpdateCvs(CvDto cvDto);
         Task<bool> DeleteProduct(int cvId);
+        Task<CvDto> GetCvById(int id);
     }
 }
